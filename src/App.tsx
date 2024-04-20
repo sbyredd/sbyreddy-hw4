@@ -18,7 +18,7 @@ function App() {
   }, []);
 
   return (
-    <div style={{alignItems:"center",textAlign:"center"}}>
+    <div>
       <h3>Current Weather</h3>
       {weatherData ? (
         <div>
